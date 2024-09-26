@@ -1,0 +1,4 @@
+2024-09-26 19:33:18 - Epoch [1/100], Step [10/2781], Avg Running Loss: 0.74480, Avg Sty Loss: 0.00000, Avg Disc Loss: 2.92576, Avg Algn Loss: 0.27629, Avg S2S Loss: 0.00313, Avg F0 Loss: 0.00000, Avg Gen Loss: 12.82405, Avg WavLM Loss: 2.45386, Avg GenLM Loss: 1.06682, Avg SIM Loss: 0.99591, Avg FSim Loss: 0.49625
+2024-09-26 19:33:18 - Time elapsed: 10.99 seconds
+2024-09-26 19:33:27 - Epoch [1/100], Step [20/2781], Avg Running Loss: 0.76919, Avg Sty Loss: 0.00000, Avg Disc Loss: 2.79883, Avg Algn Loss: 0.32259, Avg S2S Loss: 0.00205, Avg F0 Loss: 0.00000, Avg Gen Loss: 13.63488, Avg WavLM Loss: 2.50453, Avg GenLM Loss: 1.09991, Avg SIM Loss: 0.99764, Avg FSim Loss: 0.57339
+2024-09-26 19:33:27 - Time elapsed: 20.08 seconds
