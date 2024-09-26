@@ -8,7 +8,7 @@
 - [x] Saving, Logging and Loading the checkpoints so far seem to be working good
 - [x] added the config to the training script
 - [ ] Only DP so far, may add Accelerate later 
-- [ ] pyannote's SV didn't work, replaced it with another instance of WavLM SV
+- [ ] pyannote's SV didn't work, replaced it with another instance of WavLM SV with a modified SVLoss.
 
 ## Pre-requisites
 1. Python >= 3.7
