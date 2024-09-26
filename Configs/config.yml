@@ -8,7 +8,7 @@ device: "cuda"
 epochs_1st: 100
 batch_size: 4
 max_len: 150 # maximum number of frames
-pretrained_model: "/home/austin/disk1/stts-zs_cleaning/StyleTTS2/checkpoint_PH_E2E_real_fixed_exactF0_gtstyle_snake_R_newsine_conf_dropout_F0_librilight_gt/step_250_loss_0.00000.t7"
+pretrained_model: "./checkpoint_PH_E2E_real_fixed_exactF0_gtstyle_snake_R_newsine_conf_dropout_F0_librilight_gt/step_250_loss_0.00000.t7"
 load_ckpt: true
 
 load_only_params: false # set to true if do not want to load epoch numbers and optimizer parameters
@@ -19,8 +19,8 @@ ASR_path: "Utils/ASR/epoch_00080.pth"
 PLBERT_dir: 'Utils/PLBERT/'
 
 data_params:
-  train_data: "/home/austin/disk2/llmvcs/tt/AuxiliaryASR/Data/train_list_subsection.csv"
-  val_data: "/home/austin/disk2/llmvcs/tt/AuxiliaryASR/Data/val_list_subsect.txt"
+  train_data: "./AuxiliaryASR/Data/train_list_subsection.csv"
+  val_data: "./AuxiliaryASR/Data/val_list_subsect.txt"
   min_length: 50 # sample until texts with this size are obtained for OOD texts
 
 preprocess_params:
