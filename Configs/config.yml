@@ -43,17 +43,6 @@ preprocess_params:
   
   dropout: 0.2
 
-  # config for decoder
-  decoder: 
-      type: 'istftnet' # either hifigan or istftnet
-      resblock_kernel_sizes: [3,7,11]
-      upsample_rates :  [10, 6]
-      upsample_initial_channel: 512
-      resblock_dilation_sizes: [[1,3,5], [1,3,5], [1,3,5]]
-      upsample_kernel_sizes: [20, 12]
-      gen_istft_n_fft: 20
-      gen_istft_hop_size: 5
-      
 
   # style diffusion model config
   diffusion:
